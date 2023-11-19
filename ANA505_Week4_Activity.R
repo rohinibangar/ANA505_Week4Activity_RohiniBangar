@@ -45,7 +45,6 @@ females<-filter(PassengersV1, gender=="Female")
 #TASK: Write the function that joins the male and female rows 
 union(males,females)
 
-
 #Optional Task: add any of the other functions 
 #you learned about from the dplyr package
 setdiff(males,females)  # The setdiff() function is used to get the difference between two sets of values. It returns the values in the first set that are not present in the second set.
