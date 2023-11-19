@@ -4,7 +4,7 @@
 data(Titanic)
 Passengers <- as.data.frame(Titanic)
 
-#TASK: Write the function to see the top rows of the data
+#TASK: Write the function to see the top rows of the data(viewing top 4 rows)
 head(Passengers,4)
 
 #Install and call the package dplyr
