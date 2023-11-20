@@ -35,9 +35,8 @@ arrange(males, Freq)
 group_by(males, gender)
 
 #TASK: Sum the Freq column
-#TASK: After you run it, write the total here:____
 sum(Passengers$Freq)
-total-2201
+#TASK: After you run it, write the total here: 2201
 
 #TASK: Write the function that includes only rows that are 'female'
 females<-filter(PassengersV1, gender=="Female")
